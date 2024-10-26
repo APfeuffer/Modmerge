@@ -1,4 +1,4 @@
-import json, os, sys
+import os, sys
 from pathlib import Path
 
 def merge(dst, *src, verbose=True):
@@ -27,4 +27,3 @@ def merge(dst, *src, verbose=True):
 
 if __name__=="__main__":
     merge(*sys.argv[1:])
-
